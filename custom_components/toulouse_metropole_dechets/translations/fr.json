@@ -1,0 +1,91 @@
+{
+  "title": "Toulouse Métropole Déchets",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Votre adresse",
+        "description": "Adresse complète dans Toulouse Métropole (numéro, rue et commune). La recherche utilise le service public IGN. Les coordonnées seront envoyées aux services publics de Toulouse Métropole pour retrouver vos tournées.",
+        "data": {
+          "address": "Adresse"
+        }
+      },
+      "address": {
+        "title": "Confirmer l’adresse",
+        "data": {
+          "address_choice": "Adresse trouvée"
+        }
+      },
+      "om": {
+        "title": "Ordures ménagères",
+        "description": "Adresse : {address}. Choisissez votre rue et vérifiez le jour publié sur le calendrier de votre commune. La proximité seule ne garantit pas la bonne tournée. Les dates sont prévisionnelles : les rattrapages exceptionnels sont à ajouter dans les options.",
+        "data": {
+          "route": "Tournée confirmée"
+        }
+      },
+      "tri": {
+        "title": "Emballages et papiers",
+        "description": "Adresse : {address}. Confirmez votre tournée. Les semaines paires et impaires suivent le numéro ISO. Les rattrapages des jours fériés sont à renseigner dans les options.",
+        "data": {
+          "route": "Tournée confirmée"
+        }
+      },
+      "green": {
+        "title": "Déchets végétaux",
+        "description": "Choisissez seulement un abonnement auquel vous êtes inscrit. Le calendrier payant est validé pour 2026. Les dates saisonnières utilisent les années explicitement publiées par la carte officielle. Cette intégration ne souscrit aucun abonnement. Les autres flux seront disponibles ; leurs rendez-vous ou dates peuvent être saisis dans les options.",
+        "data": {
+          "green_plan": "Votre abonnement"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossible de joindre le service public. Réessayez, ou choisissez de renseigner ce flux plus tard.",
+      "no_address": "Aucune adresse précise trouvée. Ajoutez la commune et le numéro.",
+      "ambiguous_route": "Ce tronçon a un calendrier ambigu (par exemple selon le côté de la voie). Choisissez « à renseigner plus tard », puis saisissez dans les options la règle ou les dates confirmées auprès de la Métropole.",
+      "no_green": "Aucun secteur végétaux trouvé pour cette adresse. Choisissez de renseigner les dates plus tard."
+    },
+    "abort": {
+      "already_configured": "Cette adresse est déjà configurée.",
+      "outside_metropole": "L’adresse sélectionnée ne correspond pas à une des 37 communes de Toulouse Métropole. Relancez la configuration avec une adresse de la métropole."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Modifier une collecte",
+        "data": {
+          "stream": "Type de déchets"
+        }
+      },
+      "schedule": {
+        "title": "Calendrier — {stream}",
+        "description": "Dates au format AAAA-MM-JJ, séparées par des virgules. Exemple de règle : « Mardi semaine paire ». Pour un rendez-vous confirmé, choisissez « Dates confirmées saisies ». Pour les végétaux, le calendrier officiel activé remplace la liste des dates ; désactivez-le pour saisir votre propre calendrier. Les ajouts et exclusions restent appliqués. Une règle modifiée manuellement cesse de suivre automatiquement la tournée OpenData. Les OM et le tri excluent automatiquement le 1er janvier, le 1er mai et le 25 décembre ; renseignez les dates de rattrapage confirmées.",
+        "data": {
+          "mode": "Mode de collecte",
+          "rule": "Règle hebdomadaire",
+          "dates": "Dates confirmées",
+          "excluded_dates": "Dates à retirer",
+          "extra_dates": "Dates supplémentaires / rattrapages",
+          "green_plan": "Calendrier officiel végétaux"
+        }
+      }
+    },
+    "error": {
+      "invalid_schedule": "Vérifiez la règle et les dates (AAAA-MM-JJ, séparées par des virgules). Une tournée ambiguë ne peut pas être calculée."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "collection_status": {
+        "state": {
+          "recurring": "Tournée publiée — dates prévisionnelles",
+          "manual": "Dates renseignées",
+          "drop_off": "Apport volontaire / compostage",
+          "appointment": "Sur rendez-vous",
+          "error": "Erreur de la source",
+          "expired": "Calendrier expiré : mise à jour nécessaire",
+          "not_configured": "Calendrier non renseigné"
+        }
+      }
+    }
+  }
+}

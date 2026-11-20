@@ -1,0 +1,91 @@
+{
+  "title": "Toulouse Métropole Waste Collection",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Your address",
+        "description": "Enter your full address in Toulouse Métropole, including the house number, street and municipality. Address lookup uses the public IGN service. Coordinates are sent to Toulouse Métropole public services to find your collection routes.",
+        "data": {
+          "address": "Address"
+        }
+      },
+      "address": {
+        "title": "Confirm the address",
+        "data": {
+          "address_choice": "Matching address"
+        }
+      },
+      "om": {
+        "title": "Household waste",
+        "description": "Address: {address}. Choose your street and check the published collection day against your municipal calendar. The nearest route may not serve your address. Dates are estimates; add confirmed replacement collections in the options.",
+        "data": {
+          "route": "Confirmed collection route"
+        }
+      },
+      "tri": {
+        "title": "Packaging and paper",
+        "description": "Address: {address}. Confirm your collection route. Even and odd weeks use ISO week numbers. Enter confirmed replacement collections for public holidays in the options.",
+        "data": {
+          "route": "Confirmed collection route"
+        }
+      },
+      "green": {
+        "title": "Garden waste",
+        "description": "Select only a service you have subscribed to. The paid schedule has been verified for 2026. Seasonal dates use only the years explicitly published on the official map. This integration does not subscribe you to any service. Other waste types will also be available; enter their appointments or confirmed dates in the options.",
+        "data": {
+          "green_plan": "Your subscription"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to the public service. Try again, or choose to configure this waste type later.",
+      "no_address": "No precise address found. Include the municipality and house number.",
+      "ambiguous_route": "This street segment has an ambiguous schedule, for example different days on each side of the road. Choose to configure it later, then enter the rule or dates confirmed by Toulouse Métropole in the options.",
+      "no_green": "No garden waste collection area was found for this address. Choose to enter the dates later."
+    },
+    "abort": {
+      "already_configured": "This address is already configured.",
+      "outside_metropole": "The selected address is not in one of the 37 municipalities of Toulouse Métropole. Start setup again with an address in Toulouse Métropole."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Edit a collection schedule",
+        "data": {
+          "stream": "Waste type"
+        }
+      },
+      "schedule": {
+        "title": "Schedule — {stream}",
+        "description": "Enter dates as YYYY-MM-DD, separated by commas. Rules must be in French, for example \"Mardi semaine paire\" (Tuesday in even weeks). For a confirmed appointment, use the manual date mode. For garden waste, enabling the official schedule replaces the date list; disable it to enter your own schedule. Extra dates and exclusions still apply. Editing a rule manually stops automatic updates from the OpenData route. Household waste and recycling automatically exclude January 1, May 1 and December 25; enter any confirmed replacement collection dates.",
+        "data": {
+          "mode": "Collection mode",
+          "rule": "Weekly rule",
+          "dates": "Confirmed dates",
+          "excluded_dates": "Dates to exclude",
+          "extra_dates": "Extra dates / replacement collections",
+          "green_plan": "Official garden waste schedule"
+        }
+      }
+    },
+    "error": {
+      "invalid_schedule": "Check the rule and dates (YYYY-MM-DD, separated by commas). Dates cannot be calculated from an ambiguous rule."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "collection_status": {
+        "state": {
+          "recurring": "Published route — estimated dates",
+          "manual": "Dates provided",
+          "drop_off": "Drop-off / composting",
+          "appointment": "By appointment",
+          "error": "Data source error",
+          "expired": "Schedule expired: update required",
+          "not_configured": "Schedule not configured"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "toulouse_metropole_dechets",
+  "name": "Toulouse Métropole Déchets",
+  "codeowners": [
+    "@estebanneuu"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/estebanneuu/ha-toulouse-metropole-dechets",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/estebanneuu/ha-toulouse-metropole-dechets/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

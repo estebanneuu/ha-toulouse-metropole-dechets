@@ -1,0 +1,1476 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [ {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mardi semaine PAIRE\nForfait gratuit : Les mardis : 10/03/2026 ; 07/04/2026 ; 05/05/2026 ; 02/06/2026 ; 06/10/2026 ; 03/11/2026",
+      "oid" : 1,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mardi semaine PAIRE<br/>Forfait gratuit : Les mardis : 10/03/2026 ; 07/04/2026 ; 05/05/2026 ; 02/06/2026 ; 06/10/2026 ; 03/11/2026",
+      "oid" : "1",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4546612882766674, 43.641926193819415 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4546612882766674, 43.641926193819415 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "1",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.411966527653461, 43.6156464193451, 1.499373341551801, 43.668701872973294 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mardi semaine PAIRE\nForfait gratuit : Les mercredis : 11/03/2026 ; 08/04/2026 ; 06/05/2026 ; 03/06/2026 ; 07/10/2026 ; 04/11/2026",
+      "oid" : 2,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mardi semaine PAIRE<br/>Forfait gratuit : Les mercredis : 11/03/2026 ; 08/04/2026 ; 06/05/2026 ; 03/06/2026 ; 07/10/2026 ; 04/11/2026",
+      "oid" : "2",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4186886382109736, 43.63321047339833 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4186886382109736, 43.63321047339833 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "2",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.4003768568217871, 43.608934708565386, 1.4526299937943588, 43.668493828656125 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Lundi semaine PAIRE\nForfait gratuit : Les mardis : 24/03/2026 ; 21/04/2026 ; 19/05/2026 ; 16/06/2026 ; 20/10/2026 ; 17/11/2026",
+      "oid" : 3,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Lundi semaine PAIRE<br/>Forfait gratuit : Les mardis : 24/03/2026 ; 21/04/2026 ; 19/05/2026 ; 16/06/2026 ; 20/10/2026 ; 17/11/2026",
+      "oid" : "3",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.471123840135409, 43.614046998321825 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.471123840135409, 43.614046998321825 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "3",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.4506715843453577, 43.593761295418176, 1.492698522815992, 43.63147816944905 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Lundi semaine PAIRE\nForfait gratuit : Les mercredis : 25/03/2026 ; 22/04/2026 ; 20/05/2026 ; 17/06/2026 ; 21/10/2026 ; 18/11/2026",
+      "oid" : 4,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Lundi semaine PAIRE<br/>Forfait gratuit : Les mercredis : 25/03/2026 ; 22/04/2026 ; 20/05/2026 ; 17/06/2026 ; 21/10/2026 ; 18/11/2026",
+      "oid" : "4",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4785099855506183, 43.59213081098567 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4785099855506183, 43.59213081098567 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "4",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.4564106323704111, 43.573044782410264, 1.4980153751327958, 43.60735702427665 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mardi semaine PAIRE\nForfait gratuit : Les jeudis : 12/03/2026 ; 09/04/2026 ; 07/05/2026 ; 04/06/2026 ; 08/10/2026 ; 05/11/2026",
+      "oid" : 5,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mardi semaine PAIRE<br/>Forfait gratuit : Les jeudis : 12/03/2026 ; 09/04/2026 ; 07/05/2026 ; 04/06/2026 ; 08/10/2026 ; 05/11/2026",
+      "oid" : "5",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4400606201354509, 43.60537597424229 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4400606201354509, 43.60537597424229 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "5",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.4119903241363905, 43.59191552344527, 1.4582342288422514, 43.61619320757577 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Vendredi semaine IMPAIRE\nForfait gratuit : Les mercredis : 18/03/2026 ; 15/04/2026 ; 27/05/2026 ; 24/06/2026 ; 28/10/2026 ; 25/11/2026",
+      "oid" : 6,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Vendredi semaine IMPAIRE<br/>Forfait gratuit : Les mercredis : 18/03/2026 ; 15/04/2026 ; 27/05/2026 ; 24/06/2026 ; 28/10/2026 ; 25/11/2026",
+      "oid" : "6",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4512654916570762, 43.563805046571694 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4512654916570762, 43.563805046571694 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "6",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.4280442445000983, 43.532696874310545, 1.4792858796630701, 43.587505934246124 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Lundi semaine IMPAIRE\nForfait gratuit : Les jeudis : 05/03/2026 ; 02/04/2026 ; 14/05/2026 ; 11/06/2026 ; 15/10/2026 ; 12/11/2026",
+      "oid" : 7,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Lundi semaine IMPAIRE<br/>Forfait gratuit : Les jeudis : 05/03/2026&nbsp;; 02/04/2026 ; 14/05/2026 ; 11/06/2026 ;&nbsp;15/10/2026&nbsp;;&nbsp;12/11/2026",
+      "oid" : "7",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3904240470866136, 43.584603308224125 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3904240470866136, 43.584603308224125 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "7",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.3649372286611592, 43.569241030959674, 1.422240027397246, 43.5987170715114 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Vendredi semaine IMPAIRE\nForfait gratuit : Les jeudis : 19/03/2026 ; 16/04/2026 ; 28/05/2026 ; 25/06/2026 ; 29/10/2026 ; 26/11/2026",
+      "oid" : 8,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Vendredi semaine IMPAIRE<br/>Forfait gratuit : Les jeudis : 19/03/2026&nbsp;; 16/04/2026 ; 28/05/2026 ; 25/06/2026 ; 29/10/2026 ; 26/11/2026",
+      "oid" : "8",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.480566954831093, 43.57393583266152 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.480566954831093, 43.57393583266152 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "8",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.429878213867158, 43.5528347303692, 1.515335689877993, 43.59816097013364 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Lundi semaine IMPAIRE\nForfait gratuit : Les vendredis : 06/03/2026 ; 03/04/2026 ; 15/05/2026 ; 12/06/2026 ; 16/10/2026 ; 13/11/2026",
+      "oid" : 9,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Lundi semaine IMPAIRE<br/>Forfait gratuit : Les vendredis : 06/03/2026 ; 03/04/2026 ; 15/05/2026 ;&nbsp;12/06/2026 ; 16/10/2026 ; 13/11/2026",
+      "oid" : "9",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4018773543799643, 43.560488443813504 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4018773543799643, 43.560488443813504 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "9",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.3589349397595218, 43.53676357328962, 1.4391208914600815, 43.589046220834106 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Jeudi semaine IMPAIRE\nForfait gratuit : Les mercredis : 04/03/2026 ; 01/04/2026 ; 13/05/2026 ; 10/06/2026 ; 14/10/2026 ; 11/11/2026",
+      "oid" : 10,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Jeudi semaine IMPAIRE<br/>Forfait gratuit : Les mercredis : 04/03/2026 ; 01/04/2026 ; 13/05/2026 ; 10/06/2026 ; 14/10/2026 ; 11/11/2026",
+      "oid" : "10",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3921230796143895, 43.60501949516003 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3921230796143895, 43.60501949516003 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "10",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.350331311015018, 43.5785363172717, 1.4391774524703773, 43.6287729461818 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mercredi semaine PAIRE\nForfait gratuit : Les vendredis : 27/03/2026 ; 24/04/2026 ; 22/05/2026 ; 19/06/2026 ; 23/10/2026 ; 20/11/2026",
+      "oid" : 11,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mercredi semaine PAIRE<br/>Forfait gratuit : Les vendredis : 27/03/2026 ; 24/04/2026 ; 22/05/2026 ; 19/06/2026 ; 23/10/2026 ; 20/11/2026",
+      "oid" : "11",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5851592974187036, 43.56917750042861 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5851592974187036, 43.56917750042861 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "11",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.5658454746841706, 43.55562510421514, 1.6030835837573372, 43.580943316146566 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Jeudi semaine PAIRE\nForfait gratuit : Les mardis : 10/03/2026 ; 07/04/2026 ; 05/05/2026 ; 02/06/2026 ; 06/10/2026 ; 03/11/2026",
+      "oid" : 12,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Jeudi semaine PAIRE<br/>Forfait gratuit : Les mardis : 10/03/2026 ; 07/04/2026 ; 05/05/2026 ; 02/06/2026 ; 06/10/2026 ; 03/11/2026",
+      "oid" : "12",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4233723687390247, 43.671103991120994 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4233723687390247, 43.671103991120994 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "12",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.4062394573346706, 43.65740686296269, 1.4424429813304978, 43.68543256602771 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Jeudi semaine PAIRE\nForfait gratuit : Les lundis : 09/03/2026 ; 06/04/2026 ; 04/05/2026 ; 01/06/2026 ; 05/10/2026 ; 02/11/2026",
+      "oid" : 13,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Jeudi semaine PAIRE<br/>Forfait gratuit : Les lundis : 09/03/2026 ; 06/04/2026 ; 04/05/2026 ; 01/06/2026 ; 05/10/2026 ; 02/11/2026",
+      "oid" : "13",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3906055241800543, 43.68442536051431 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3906055241800543, 43.68442536051431 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "13",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.3670921672292198, 43.66508183310849, 1.4119691098625637, 43.70781759028068 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mercredi semaine PAIRE\nForfait gratuit : Les vendredis : 27/03/2026 ; 24/04/2026 ; 22/05/2026 ; 19/06/2026 ; 23/10/2026 ; 20/11/2026",
+      "oid" : 14,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mercredi semaine PAIRE<br/>Forfait gratuit : Les vendredis : 27/03/2026 ; 24/04/2026 ; 22/05/2026 ; 19/06/2026 ; 23/10/2026 ; 20/11/2026",
+      "oid" : "14",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5537313975163094, 43.59764629996898 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5537313975163094, 43.59764629996898 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "14",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.5166934319458012, 43.581556195689295, 1.5861115727496766, 43.613424090480784 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mercredi semaine IMPAIRE\nForfait gratuit : Les mercredis : 04/03/2026 ; 01/04/2026 ; 13/05/2026 ; 10/06/2026 ; 14/10/2026 ; 11/11/2026",
+      "oid" : 15,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mercredi semaine IMPAIRE<br/>Forfait gratuit : Les mercredis : 04/03/2026 ; 01/04/2026 ; 13/05/2026 ; 10/06/2026 ; 14/10/2026 ; 11/11/2026",
+      "oid" : "15",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.328604703101312, 43.683889057309884 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.328604703101312, 43.683889057309884 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "15",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.2962642563907452, 43.660927200564316, 1.3594936522408518, 43.7071871572977 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Jeudi semaine PAIRE\nForfait gratuit : Les mardis : 10/03/2026 ; 07/04/2026 ; 05/05/2026 ; 02/06/2026 ; 06/10/2026 ; 03/11/2026",
+      "oid" : 16,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Jeudi semaine PAIRE<br/>Forfait gratuit : Les mardis : 10/03/2026 ; 07/04/2026 ; 05/05/2026 ; 02/06/2026 ; 06/10/2026 ; 03/11/2026",
+      "oid" : "16",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4362976616072543, 43.67974003066252 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4362976616072543, 43.67974003066252 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "16",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.4228494670515273, 43.67335697933614, 1.4508140498177942, 43.68511291421098 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Lundi semaine PAIRE\nForfait gratuit : Les jeudis : 26/03/2026 ; 23/04/2026 ; 21/05/2026 ; 18/06/2026 ; 22/10/2026 ; 19/11/2026",
+      "oid" : 17,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Lundi semaine PAIRE<br/>Forfait gratuit : Les jeudis : 26/03/2026 ; 23/04/2026 ; 21/05/2026 ; 18/06/2026 ; 22/10/2026 ; 19/11/2026",
+      "oid" : "17",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5047241146787906, 43.61116898933272 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5047241146787906, 43.61116898933272 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "17",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.4798394569883293, 43.57982029678633, 1.5275314260644617, 43.64183346020827 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Vendredi semaine PAIRE\nForfait gratuit : Les jeudis : 12/03/2026 ; 09/04/2026 ; 07/05/2026 ; 04/06/2026 ; 08/10/2026 ; 05/11/2026",
+      "oid" : 18,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Vendredi semaine PAIRE<br/>Forfait gratuit : Les jeudis : 12/03/2026 ; 09/04/2026 ; 07/05/2026 ; 04/06/2026 ; 08/10/2026 ; 05/11/2026",
+      "oid" : "18",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3637073175026215, 43.70715192830956 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3637073175026215, 43.70715192830956 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "18",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.341923700493749, 43.69362408411764, 1.3853640039110693, 43.722093704434954 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mercredi semaine PAIRE\nForfait gratuit : Les mercredis : 25/03/2026 ; 22/04/2026 ; 20/05/2026 ; 17/06/2026 ; 21/10/2026 ; 18/11/2026",
+      "oid" : 19,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mercredi semaine PAIRE<br/>Forfait gratuit : Les mercredis : 25/03/2026 ; 22/04/2026 ; 20/05/2026 ; 17/06/2026 ; 21/10/2026 ; 18/11/2026",
+      "oid" : "19",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.559097584008574, 43.652590198986275 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.559097584008574, 43.652590198986275 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "19",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.5350984880521208, 43.6374941014006, 1.577303496261481, 43.66592162222622 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Jeudi semaine PAIRE\nForfait gratuit : Les lundis : 09/03/2026 ; 06/04/2026 ; 04/05/2026 ; 01/06/2026 ; 05/10/2026 ; 02/11/2026",
+      "oid" : 20,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Jeudi semaine PAIRE<br/>Forfait gratuit : Les lundis : 09/03/2026 ; 06/04/2026 ; 04/05/2026 ; 01/06/2026 ; 05/10/2026 ; 02/11/2026",
+      "oid" : "20",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3742073877162049, 43.66709588783958 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3742073877162049, 43.66709588783958 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "20",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.3505491744087794, 43.65663929075656, 1.4003768568217871, 43.67929274123267 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Vendredi semaine PAIRE\nForfait gratuit : Les jeudis : 12/03/2026 ; 09/04/2026 ; 07/05/2026 ; 04/06/2026 ; 08/10/2026 ; 05/11/2026",
+      "oid" : 21,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Vendredi semaine PAIRE<br/>Forfait gratuit : Les jeudis : 12/03/2026 ; 09/04/2026 ; 07/05/2026 ; 04/06/2026 ; 08/10/2026 ; 05/11/2026",
+      "oid" : "21",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3824743737880019, 43.71620081540209 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3824743737880019, 43.71620081540209 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "21",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.366635923194702, 43.70082732987253, 1.3976385768027302, 43.733948220930586 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mardi semaine PAIRE\nForfait gratuit : Les lundis : 09/03/2026 ; 06/04/2026 ; 04/05/2026 ; 01/06/2026 ; 05/10/2026 ; 02/11/2026",
+      "oid" : 22,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mardi semaine PAIRE<br/>Forfait gratuit : Les lundis : 09/03/2026 ; 06/04/2026 ; 04/05/2026 ; 01/06/2026 ; 05/10/2026 ; 02/11/2026",
+      "oid" : "22",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.379817012121177, 43.64155483564434 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.379817012121177, 43.64155483564434 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "22",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.3473668845641456, 43.615481614431246, 1.406670698101584, 43.66654373474166 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Vendredi semaine PAIRE\nForfait gratuit : Les vendredis : 13/03/2026 ; 10/04/2026 ; 08/05/2026 ; 05/06/2026 ; 09/10/2026 ; 06/11/2026",
+      "oid" : 23,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Vendredi semaine PAIRE<br/>Forfait gratuit : Les vendredis : 13/03/2026 ; 10/04/2026 ; 08/05/2026 ; 05/06/2026 ; 09/10/2026 ; 06/11/2026",
+      "oid" : "23",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4125809764260062, 43.69265019414648 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4125809764260062, 43.69265019414648 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "23",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.3933817529814523, 43.678575227401645, 1.4333008589737015, 43.71239137978225 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mercredi semaine PAIRE\nForfait gratuit : Les lundis : 23/03/2026 ; 20/04/2026 ; 18/05/2026 ; 15/06/2026 ; 19/10/2026 ; 16/11/2026",
+      "oid" : 24,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mercredi semaine PAIRE<br/>Forfait gratuit : Les lundis : 23/03/2026 ; 20/04/2026 ; 18/05/2026 ; 15/06/2026 ; 19/10/2026 ; 16/11/2026",
+      "oid" : "24",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5012924085514383, 43.662944436052406 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5012924085514383, 43.662944436052406 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "24",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.4765351265621431, 43.64740851507659, 1.5266028458716927, 43.68090308213666 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Vendredi semaine PAIRE\nForfait gratuit : Les jeudis : 12/03/2026 ; 09/04/2026 ; 07/05/2026 ; 04/06/2026 ; 08/10/2026 ; 05/11/2026",
+      "oid" : 25,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Vendredi semaine PAIRE<br/>Forfait gratuit : Les jeudis : 12/03/2026 ; 09/04/2026 ; 07/05/2026 ; 04/06/2026 ; 08/10/2026 ; 05/11/2026",
+      "oid" : "25",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3567122265027631, 43.73917713531798 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3567122265027631, 43.73917713531798 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "25",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.3109857121532407, 43.71239987687311, 1.3966998935156603, 43.7670333258678 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mercredi semaine IMPAIRE\nForfait gratuit : mar. 17/03/2026 ; mer. 29/04/2026 ; mar. 26/05/2026 ; mar. 23/06/2026 ; mar. 27/10/2026 ; mar. 24/11/2026",
+      "oid" : 26,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mercredi semaine IMPAIRE<br/>Forfait gratuit : mar. 17/03/2026 ; mer. 29/04/2026 ; mar. 26/05/2026 ; mar. 23/06/2026 ; mar. 27/10/2026 ; mar. 24/11/2026",
+      "oid" : "26",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.2328252053324718, 43.61512803609181 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.2328252053324718, 43.61512803609181 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "26",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.2040802757797708, 43.604548445296174, 1.2577192735202132, 43.626143634420885 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Vendredi semaine PAIRE\nForfait gratuit : Les jeudis : 12/03/2026 ; 09/04/2026 ; 07/05/2026 ; 04/06/2026 ; 08/10/2026 ; 05/11/2026",
+      "oid" : 27,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Vendredi semaine PAIRE<br/>Forfait gratuit : Les jeudis : 12/03/2026 ; 09/04/2026 ; 07/05/2026 ; 04/06/2026 ; 08/10/2026 ; 05/11/2026",
+      "oid" : "27",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4091874760944896, 43.726779767754145 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4091874760944896, 43.726779767754145 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "27",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.3890352223467943, 43.69782987352454, 1.4319697695659892, 43.75410623986544 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Vendredi semaine PAIRE\nForfait gratuit : Les vendredis : 13/03/2026 ; 10/04/2026 ; 08/05/2026 ; 05/06/2026 ; 09/10/2026 ; 06/11/2026",
+      "oid" : 28,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Vendredi semaine PAIRE<br/>Forfait gratuit : Les vendredis : 13/03/2026 ; 10/04/2026 ; 08/05/2026 ; 05/06/2026 ; 09/10/2026 ; 06/11/2026",
+      "oid" : "28",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4344141595479771, 43.72010717914538 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4344141595479771, 43.72010717914538 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "28",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.414578578083756, 43.71001500265806, 1.4519923867910736, 43.73120215925862 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Vendredi semaine PAIRE\nForfait gratuit : Les vendredis : 13/03/2026 ; 10/04/2026 ; 08/05/2026 ; 05/06/2026 ; 09/10/2026 ; 06/11/2026",
+      "oid" : 29,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Vendredi semaine PAIRE<br/>Forfait gratuit : Les vendredis : 13/03/2026 ; 10/04/2026 ; 08/05/2026 ; 05/06/2026 ; 09/10/2026 ; 06/11/2026",
+      "oid" : "29",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4352290371074516, 43.697436143742685 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4352290371074516, 43.697436143742685 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "29",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.4082449574171185, 43.68232125300656, 1.4614238356957345, 43.71387464219097 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Jeudi semaine IMPAIRE\nForfait gratuit : lun. 16/03/2026 ; mar. 28/04/2026 ; lun. 25/05/2026 ; lun. 22/06/2026 ; lun. 26/10/2026 ; lun. 23/11/2026",
+      "oid" : 30,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Jeudi semaine IMPAIRE<br/>Forfait gratuit : lun. 16/03/2026 ; mar. 28/04/2026 ; lun. 25/05/2026 ; lun. 22/06/2026 ; lun. 26/10/2026 ; lun. 23/11/2026",
+      "oid" : "30",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3269329295365886, 43.611720333955525 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3269329295365886, 43.611720333955525 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "30",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.2822471823205062, 43.58929011759599, 1.3667581365889792, 43.633988858027436 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mercredi semaine IMPAIRE\nForfait gratuit : Les mercredis : 04/03/2026 ; 01/04/2026 ; 13/05/2026 ; 10/06/2026 ; 14/10/2026 ; 11/11/2026",
+      "oid" : 31,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mercredi semaine IMPAIRE<br/>Forfait gratuit : Les mercredis : 04/03/2026 ; 01/04/2026 ; 13/05/2026 ; 10/06/2026 ; 14/10/2026 ; 11/11/2026",
+      "oid" : "31",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3224358061628094, 43.648791605054555 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3224358061628094, 43.648791605054555 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "31",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.2803888235373735, 43.62663309518769, 1.3590368693779862, 43.6714392844272 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Lundi semaine IMPAIRE\nForfait gratuit : Les mardis : 03/03/2026 ; 14/04/2026 ; 12/05/2026 ; 09/06/2026 ; 13/10/2026 ; 10/11/2026",
+      "oid" : 32,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Lundi semaine IMPAIRE<br/>Forfait gratuit : Les mardis : 03/03/2026 ; 14/04/2026 ; 12/05/2026 ; 09/06/2026 ; 13/10/2026 ; 10/11/2026",
+      "oid" : "32",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3431442300560663, 43.54486065260193 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3431442300560663, 43.54486065260193 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "32",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.3110758536112426, 43.52751207319174, 1.375253440199269, 43.561733956696564 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mercredi semaine PAIRE\nForfait gratuit : Les vendredis : 27/03/2026 ; 24/04/2026 ; 22/05/2026 ; 19/06/2026 ; 23/10/2026 ; 20/11/2026",
+      "oid" : 33,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mercredi semaine PAIRE<br/>Forfait gratuit : Les vendredis : 27/03/2026 ; 24/04/2026 ; 22/05/2026 ; 19/06/2026 ; 23/10/2026 ; 20/11/2026",
+      "oid" : "33",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.6027857560296277, 43.59130748500185 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.6027857560296277, 43.59130748500185 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "33",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.567574437246941, 43.565725923147, 1.6318313754790137, 43.61827880310459 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Jeudi semaine PAIRE\nForfait gratuit : Les mercredis : 11/03/2026 ; 08/04/2026 ; 06/05/2026 ; 03/06/2026 ; 07/10/2026 ; 04/11/2026",
+      "oid" : 34,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Jeudi semaine PAIRE<br/>Forfait gratuit : Les mercredis : 11/03/2026 ; 08/04/2026 ; 06/05/2026 ; 03/06/2026 ; 07/10/2026 ; 04/11/2026",
+      "oid" : "34",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4549023709335658, 43.66940088862752 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4549023709335658, 43.66940088862752 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "34",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.4388689456758976, 43.64783755459427, 1.4770598625203446, 43.6857634533844 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mercredi semaine IMPAIRE\nForfait gratuit : mar. 17/03/2026 ; mer. 29/04/2026 ; mar. 26/05/2026 ; mar. 23/06/2026 ; mar. 27/10/2026 ; mar. 24/11/2026",
+      "oid" : 35,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mercredi semaine IMPAIRE<br/>Forfait gratuit : mar. 17/03/2026 ; mer. 29/04/2026 ; mar. 26/05/2026 ; mar. 23/06/2026 ; mar. 27/10/2026 ; mar. 24/11/2026",
+      "oid" : "35",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.2808577015655433, 43.66323554535026 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.2808577015655433, 43.66323554535026 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "35",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.236620359233709, 43.6457267747186, 1.3104414129157242, 43.69224909373723 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mercredi semaine PAIRE\nForfait gratuit : Les mercredis : 25/03/2026 ; 22/04/2026 ; 20/05/2026 ; 17/06/2026 ; 21/10/2026 ; 18/11/2026",
+      "oid" : 36,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mercredi semaine PAIRE<br/>Forfait gratuit : Les mercredis : 25/03/2026 ; 22/04/2026 ; 20/05/2026 ; 17/06/2026 ; 21/10/2026 ; 18/11/2026",
+      "oid" : "36",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5628316377839275, 43.63128427698797 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5628316377839275, 43.63128427698797 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "36",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.5424899202778772, 43.6188490984019, 1.577760819201965, 43.6419065010497 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mercredi semaine PAIRE\nForfait gratuit : Les vendredis : 27/03/2026 ; 24/04/2026 ; 22/05/2026 ; 19/06/2026 ; 23/10/2026 ; 20/11/2026",
+      "oid" : 37,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mercredi semaine PAIRE<br/>Forfait gratuit : Les vendredis : 27/03/2026 ; 24/04/2026 ; 22/05/2026 ; 19/06/2026 ; 23/10/2026 ; 20/11/2026",
+      "oid" : "37",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.573718631197082, 43.61093999566943 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.573718631197082, 43.61093999566943 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "37",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.542099696937201, 43.59536398547115, 1.5971104005872656, 43.62298710346417 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mercredi semaine PAIRE\nForfait gratuit : Les mercredis : 25/03/2026 ; 22/04/2026 ; 20/05/2026 ; 17/06/2026 ; 21/10/2026 ; 18/11/2026",
+      "oid" : 38,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mercredi semaine PAIRE<br/>Forfait gratuit : Les mercredis : 25/03/2026 ; 22/04/2026 ; 20/05/2026 ; 17/06/2026 ; 21/10/2026 ; 18/11/2026",
+      "oid" : "38",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5288993711656775, 43.64226284993989 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5288993711656775, 43.64226284993989 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "38",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.504753200135081, 43.63224898746737, 1.5618304361639987, 43.65500850568063 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mercredi semaine IMPAIRE\nForfait gratuit : mar. 17/03/2026 ; mer. 29/04/2026 ; mar. 26/05/2026 ; mar. 23/06/2026 ; mar. 27/10/2026 ; mar. 24/11/2026",
+      "oid" : 39,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mercredi semaine IMPAIRE<br/>Forfait gratuit : mar. 17/03/2026 ; mer. 29/04/2026 ; mar. 26/05/2026 ; mar. 23/06/2026 ; mar. 27/10/2026 ; mar. 24/11/2026",
+      "oid" : "39",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.2611901935905745, 43.62774479721104 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.2611901935905745, 43.62774479721104 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "39",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.209044200385252, 43.59835440217433, 1.3077460662715024, 43.65061176468309 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mercredi semaine PAIRE\nForfait gratuit : Les mercredis : 25/03/2026 ; 22/04/2026 ; 20/05/2026 ; 17/06/2026 ; 21/10/2026 ; 18/11/2026",
+      "oid" : 40,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mercredi semaine PAIRE<br/>Forfait gratuit : Les mercredis : 25/03/2026 ; 22/04/2026 ; 20/05/2026 ; 17/06/2026 ; 21/10/2026 ; 18/11/2026",
+      "oid" : "40",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5357506995076258, 43.62233584596649 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5357506995076258, 43.62233584596649 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "40",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.5181115158860694, 43.606998451425284, 1.556501299492869, 43.63742593912195 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mercredi semaine PAIRE\nForfait gratuit : Les mardis : 24/03/2026 ; 21/04/2026 ; 19/05/2026 ; 16/06/2026 ; 20/10/2026 ; 17/11/2026",
+      "oid" : 41,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mercredi semaine PAIRE<br/>Forfait gratuit : Les mardis : 24/03/2026 ; 21/04/2026 ; 19/05/2026 ; 16/06/2026 ; 20/10/2026 ; 17/11/2026",
+      "oid" : "41",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5428908345565053, 43.5812915114363 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5428908345565053, 43.5812915114363 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "41",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.5046693684574524, 43.566300677940745, 1.569670168073485, 43.594995105448085 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Vendredi semaine IMPAIRE\nForfait gratuit : Les vendredis : 20/03/2026 ; 17/04/2026 ; 29/05/2026 ; 26/06/2026 ; 30/10/2026 ; 27/11/2026",
+      "oid" : 42,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Vendredi semaine IMPAIRE<br/>Forfait gratuit : Les vendredis : 20/03/2026 ; 17/04/2026 ; 29/05/2026 ; 26/06/2026 ; 30/10/2026 ; 27/11/2026",
+      "oid" : "42",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5350826087424756, 43.5592778807416 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.5350826087424756, 43.5592778807416 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "42",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.5062894256718866, 43.5305191584289, 1.5601258672909153, 43.57948511976844 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Jeudi semaine PAIRE\nForfait gratuit : Les lundis : 09/03/2026 ; 06/04/2026 ; 04/05/2026 ; 01/06/2026 ; 05/10/2026 ; 02/11/2026",
+      "oid" : 43,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Jeudi semaine PAIRE<br/>Forfait gratuit : Les lundis : 09/03/2026 ; 06/04/2026 ; 04/05/2026 ; 01/06/2026 ; 05/10/2026 ; 02/11/2026",
+      "oid" : "43",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3566922033200663, 43.68992078396096 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3566922033200663, 43.68992078396096 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "43",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.3389870010619862, 43.67106824718144, 1.3755114603670069, 43.71292993436489 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Mardi semaine IMPAIRE\nForfait gratuit : Les lundis : 02/03/2026 ; 13/04/2026 ; 11/05/2026 ; 08/06/2026 ; 12/10/2026 ; 09/11/2026",
+      "oid" : 44,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Mardi semaine IMPAIRE<br/>Forfait gratuit : Les lundis : 02/03/2026 ; 13/04/2026 ; 11/05/2026 ; 08/06/2026 ; 12/10/2026 ; 09/11/2026",
+      "oid" : "44",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.335060639304736, 43.57831989086748 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.335060639304736, 43.57831989086748 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "44",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.2905166801131407, 43.55436942323665, 1.3770819405067014, 43.594962892384366 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Jeudi semaine PAIRE\nForfait gratuit : Les lundis : 23/03/2026 ; 20/04/2026 ; 18/05/2026 ; 15/06/2026 ; 19/10/2026 ; 16/11/2026",
+      "oid" : 45,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Jeudi semaine PAIRE<br/>Forfait gratuit : Les lundis : 23/03/2026 ; 20/04/2026 ; 18/05/2026 ; 15/06/2026 ; 19/10/2026 ; 16/11/2026",
+      "oid" : "45",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4833817408280023, 43.654159796832296 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.4833817408280023, 43.654159796832296 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "45",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.4567601405047959, 43.63294128119068, 1.5093398282873973, 43.66998720210903 ]
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "Déchets verts\nForfait payant : Lundi semaine IMPAIRE\nForfait gratuit : Les mardis : 03/03/2026 ; 14/04/2026 ; 12/05/2026 ; 09/06/2026 ; 13/10/2026 ; 10/11/2026",
+      "oid" : 46,
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "formattedProperties" : {
+      "type_collecte" : "Collecte",
+      "infobulle" : "D&eacute;chets verts<br/>Forfait payant : Lundi semaine IMPAIRE<br/>Forfait gratuit : Les mardis : 03/03/2026 ; 14/04/2026 ; 12/05/2026 ; 09/06/2026 ; 13/10/2026 ; 10/11/2026",
+      "oid" : "46",
+      "__searchId__" : "7e7a3ad9-1620-11f1-92ed-5d0ff281562c"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3468467927015315, 43.526153768283415 ],
+      "crs" : "EPSG:4326"
+    },
+    "centroid" : {
+      "type" : "Point",
+      "coordinates" : [ 1.3468467927015315, 43.526153768283415 ],
+      "crs" : "EPSG:4326"
+    },
+    "id" : "46",
+    "crs" : {
+      "type" : "name",
+      "properties" : {
+        "name" : "EPSG:4326"
+      }
+    },
+    "bbox" : [ 1.3106494865024858, 43.51624514416303, 1.3786866267906375, 43.538340377593116 ]
+  } ]
+}

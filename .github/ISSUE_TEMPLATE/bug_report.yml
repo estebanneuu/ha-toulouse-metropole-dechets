@@ -1,0 +1,56 @@
+name: Signaler un problème
+description: Un calendrier, une configuration ou une mise à jour ne fonctionne pas.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de décrire le problème. Ce dépôt est public : retirez votre adresse précise, vos coordonnées GPS et tout secret des journaux.
+        Pour une date erronée, le nom de la commune et le libellé de tournée suffisent généralement.
+  - type: input
+    id: ha_version
+    attributes:
+      label: Version Home Assistant
+      placeholder: "2026.11.2"
+    validations:
+      required: true
+  - type: input
+    id: integration_version
+    attributes:
+      label: Version de l’intégration
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: stream
+    attributes:
+      label: Type de collecte concerné
+      options:
+        - Configuration générale
+        - Ordures ménagères
+        - Emballages et papiers
+        - Déchets végétaux gratuits
+        - Déchets végétaux payants
+        - Encombrants
+        - Verre
+        - Déchets alimentaires
+        - Textiles
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Résultat observé et résultat attendu
+      description: Précisez les étapes permettant de reproduire le problème.
+    validations:
+      required: true
+  - type: textarea
+    id: official_source
+    attributes:
+      label: Source officielle ou calendrier de référence
+      description: Si une date est incorrecte, indiquez le lien public et la date attendue, sans adresse personnelle.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Journaux utiles, après suppression des données personnelles
+      render: text
