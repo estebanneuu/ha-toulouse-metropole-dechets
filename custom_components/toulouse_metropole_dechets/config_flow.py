@@ -14,7 +14,7 @@ from homeassistant.helpers.selector import (
     SelectSelectorConfig,
 )
 
-from .api import ApiError, ToulouseApi
+from .api import ApiDataError, ApiError, ToulouseApi
 from .const import DOMAIN, GREEN_URL, MODES, MUNICIPALITY_CODES, OFFICIAL_URL, STREAMS
 from .green import GreenClient, GreenError
 from .schedule import parse_dates, parse_rule
@@ -69,6 +69,8 @@ class ToulouseConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 if self.addresses:
                     return await self.async_step_address()
                 errors["base"] = "no_address"
+            except ApiDataError:
+                errors["base"] = "invalid_data"
             except ApiError:
                 errors["base"] = "cannot_connect"
         return self.async_show_form(
@@ -96,6 +98,8 @@ class ToulouseConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                         stream, self.address["latitude"], self.address["longitude"]
                     )
                 return await self.async_step_om()
+            except ApiDataError:
+                errors["base"] = "invalid_data"
             except ApiError:
                 errors["base"] = "cannot_connect"
         return self.async_show_form(

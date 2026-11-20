@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/github/v/release/estebanneuu/ha-toulouse-metropole-dechets)](https://github.com/estebanneuu/ha-toulouse-metropole-dechets/releases)
 [![Licence MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
 
-Intégration personnalisée **0.1.0** : une adresse configurable, sept types de déchets, un calendrier, un capteur de prochaine date et un capteur de statut pour chacun. Plusieurs adresses peuvent être ajoutées.
+Intégration personnalisée **0.1.1** : une adresse configurable, sept types de déchets, un calendrier, un capteur de prochaine date et un capteur de statut pour chacun. Plusieurs adresses peuvent être ajoutées.
 
 L’intégration est indépendante de Toulouse Métropole. Elle utilise les données publiques officielles et vise les 37 communes. La couverture effective dépend des tronçons et secteurs publiés pour l’adresse. Cette version est prévue pour **Home Assistant 2026.11 ou ultérieur**, avec validation sous **2026.11.2**.
 

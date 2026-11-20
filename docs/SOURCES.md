@@ -16,6 +16,8 @@ Identifiants : `dechets-collecte-des-ordures-menageres` et `dechets-collecte-sel
 
 Les règles hebdomadaires ne renseignent pas tous les reports exceptionnels, jours fériés ou interruptions de service. La page [déchets dans ma commune](https://metropole.toulouse.fr/mon-environnement/dechets-et-proprete/les-dechets-dans-ma-commune) renvoie aux calendriers municipaux de référence. Aucun report n'est déduit de la seule proximité d'un jour férié.
 
+Le catalogue contient aussi des tronçons incomplets, notamment sans `libelle_voie`. Ils sont écartés des choix proposés sans empêcher l’utilisation des tronçons valides de la même réponse. Une réponse entièrement inexploitable reste une erreur de données, distincte d’un résultat réellement vide. Aucun tronçon de remplacement n’est sélectionné automatiquement.
+
 La [page officielle Toulouse](https://metropole.toulouse.fr/communes/toulouse) précise pour toutes les communes l'absence de collecte OM et tri les 1er janvier, 1er mai et 25 décembre. Ces dates sont exclues des récurrences ; les rattrapages sont à renseigner séparément. L'appartenance aux 37 communes est vérifiée par une liste de codes INSEE issue de l'[API gouvernementale, EPCI 243100518](https://geo.api.gouv.fr/epcis/243100518/communes?fields=code,nom), vérifiée le 20 novembre 2026. L'adresse et son code INSEE proviennent du [géocodeur IGN](https://data.geopf.fr/geocodage/search).
 
 ## Déchets végétaux

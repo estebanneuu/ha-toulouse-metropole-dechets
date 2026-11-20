@@ -8,7 +8,7 @@ import math
 from itertools import pairwise
 from typing import Any
 
-from aiohttp import ClientError, ClientSession, ClientTimeout
+from aiohttp import ClientError, ClientSession, ClientTimeout, ContentTypeError
 
 from .const import DATASETS
 
@@ -18,6 +18,14 @@ GEOCODE_URL = "https://data.geopf.fr/geocodage/search"
 
 class ApiError(Exception):
     """An upstream service could not supply valid data."""
+
+
+class ApiConnectionError(ApiError):
+    """An upstream request failed or timed out."""
+
+
+class ApiDataError(ApiError):
+    """The service responded but its data cannot be used safely."""
 
 
 def record_key(record: dict) -> str:
@@ -88,26 +96,29 @@ class ToulouseApi:
                 url, params=params, timeout=ClientTimeout(total=25)
             ) as response:
                 response.raise_for_status()
-                data = await response.json()
+                try:
+                    data = await response.json()
+                except (ValueError, ContentTypeError) as err:
+                    raise ApiDataError("Réponse du service non JSON") from err
             if not isinstance(data, dict) or data.get("error_code"):
-                raise ApiError("Réponse inattendue du service public")
+                raise ApiDataError("Réponse inattendue du service public")
             return data
-        except (TimeoutError, ClientError, ValueError) as err:
-            raise ApiError("Service public indisponible") from err
+        except (TimeoutError, ClientError) as err:
+            raise ApiConnectionError("Service public indisponible") from err
 
     async def addresses(self, query: str) -> list[dict]:
         data = await self._get(GEOCODE_URL, {"q": query, "limit": 5})
         addresses = []
         features = data.get("features")
         if not isinstance(features, list):
-            raise ApiError("Schéma de géocodage modifié")
+            raise ApiDataError("Schéma de géocodage modifié")
         for feature in features:
             if not isinstance(feature, dict):
-                raise ApiError("Schéma de géocodage modifié")
+                raise ApiDataError("Schéma de géocodage modifié")
             props = feature.get("properties")
             geometry = feature.get("geometry")
             if not isinstance(props, dict) or not isinstance(geometry, dict):
-                raise ApiError("Schéma de géocodage modifié")
+                raise ApiDataError("Schéma de géocodage modifié")
             if props.get("type") not in {"housenumber", "street"}:
                 continue
             coordinates = geometry.get("coordinates")
@@ -122,7 +133,7 @@ class ToulouseApi:
                 or not isinstance(props.get("id"), str)
                 or not props["id"]
             ):
-                raise ApiError("Schéma de géocodage modifié")
+                raise ApiDataError("Schéma de géocodage modifié")
             addresses.append(
                 {
                     "label": props["label"],
@@ -136,7 +147,7 @@ class ToulouseApi:
 
     async def routes(self, stream: str, lat: float, lon: float) -> list[dict]:
         if not _coordinate(lat, 90) or not _coordinate(lon, 180):
-            raise ApiError("Coordonnées invalides")
+            raise ApiDataError("Coordonnées invalides")
         url = f"{BASE_URL}/{DATASETS[stream]}/records"
         rows = []
         for offset in range(0, 1000, 100):
@@ -155,26 +166,29 @@ class ToulouseApi:
                 or isinstance(total_count, bool)
                 or total_count < 0
             ):
-                raise ApiError("Schéma de données modifié")
+                raise ApiDataError("Schéma de données modifié")
             rows.extend(data["results"])
             if len(rows) >= total_count:
                 break
             if not data["results"]:
-                raise ApiError("Page de données incomplète")
+                raise ApiDataError("Page de données incomplète")
         else:
-            raise ApiError("Trop de tronçons : préciser l’adresse")
+            raise ApiDataError("Trop de tronçons : préciser l’adresse")
         result = []
         for row in rows:
             if (
                 not isinstance(row, dict)
                 or not isinstance(row.get("libelle_voie"), str)
-                or not row["libelle_voie"]
+                or not row["libelle_voie"].strip()
                 or not isinstance(row.get("infobulle_pdi"), str)
+                or not row["infobulle_pdi"].strip()
             ):
-                raise ApiError("Schéma de données modifié")
+                # Published datasets also contain unnamed/unusable segments.
+                # They must not hide neighboring routes that can be confirmed.
+                continue
             distance = distance_to_shape(row, lat, lon)
             if not math.isfinite(distance):
-                raise ApiError("Géométrie de collecte invalide")
+                continue
             result.append(
                 {
                     "key": record_key(row),
@@ -184,4 +198,6 @@ class ToulouseApi:
                     "source_url": f"https://data.toulouse-metropole.fr/explore/dataset/{DATASETS[stream]}/",
                 }
             )
+        if rows and not result:
+            raise ApiDataError("Aucun tronçon de collecte exploitable dans la réponse")
         return sorted(result, key=lambda route: route["distance"])

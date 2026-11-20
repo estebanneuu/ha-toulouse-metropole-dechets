@@ -38,10 +38,11 @@
       }
     },
     "error": {
-      "cannot_connect": "Impossible de joindre le service public. Réessayez, ou choisissez de renseigner ce flux plus tard.",
+      "cannot_connect": "Impossible de joindre l’un des services publics. Réessayez dans quelques instants.",
       "no_address": "Aucune adresse précise trouvée. Ajoutez la commune et le numéro.",
       "ambiguous_route": "Ce tronçon a un calendrier ambigu (par exemple selon le côté de la voie). Choisissez « à renseigner plus tard », puis saisissez dans les options la règle ou les dates confirmées auprès de la Métropole.",
-      "no_green": "Aucun secteur végétaux trouvé pour cette adresse. Choisissez de renseigner les dates plus tard."
+      "no_green": "Aucun secteur végétaux trouvé pour cette adresse. Choisissez de renseigner les dates plus tard.",
+      "invalid_data": "Le service a répondu, mais les données nécessaires sont illisibles ou incomplètes. Réessayez plus tard ou signalez le problème."
     },
     "abort": {
       "already_configured": "Cette adresse est déjà configurée.",

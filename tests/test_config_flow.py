@@ -10,7 +10,7 @@ from homeassistant import config_entries
 from homeassistant.core import HomeAssistant
 from homeassistant.data_entry_flow import FlowResultType
 
-from custom_components.toulouse_metropole_dechets.api import ApiError
+from custom_components.toulouse_metropole_dechets.api import ApiError, ToulouseApi
 from custom_components.toulouse_metropole_dechets.config_flow import (
     ToulouseConfigFlow,
     ToulouseOptionsFlow,
@@ -122,6 +122,63 @@ async def test_address_without_om_tri_routes_can_continue_to_green(flow, monkeyp
     assert (await flow.async_step_address({"address_choice": "0"}))["step_id"] == "om"
     assert (await flow.async_step_om({"route": "skip"}))["step_id"] == "tri"
     assert (await flow.async_step_tri({"route": "skip"}))["step_id"] == "green"
+
+
+def public_route_record():
+    """Synthetic geometry near the existing public-address fixture."""
+    return {
+        "libelle_voie": "Rue test valide",
+        "infobulle_pdi": "Lundi",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [[1.444, 43.604], [1.445, 43.604]],
+            },
+        },
+    }
+
+
+@pytest.mark.asyncio
+async def test_confirm_address_real_client_accepts_partial_route_data(
+    flow, monkeypatch
+):
+    """Exercise the failing flow seam, retaining the real route parsing client."""
+    valid = public_route_record()
+    incomplete = dict(valid, libelle_voie=None)
+    get = AsyncMock(
+        side_effect=[
+            {"total_count": 2, "results": [incomplete, valid]},
+            {"total_count": 1, "results": [valid]},
+        ]
+    )
+    monkeypatch.setattr(ToulouseApi, "_get", get)
+    flow.addresses = [ADDRESS]
+    result = await flow.async_step_address({"address_choice": "0"})
+    assert result["type"] == FlowResultType.FORM
+    assert result["step_id"] == "om"
+    assert result["errors"] == {}
+    assert get.await_count == 2
+    assert len(flow.routes["om"]) == 1
+    assert flow.routes["om"][0]["street"] == "Rue test valide"
+    # The remaining valid record must also be selectable in the actual flow.
+    choice = flow.routes["om"][0]["key"]
+    result["data_schema"]({"route": choice})
+    assert (await flow.async_step_om({"route": choice}))["step_id"] == "tri"
+
+
+@pytest.mark.asyncio
+async def test_confirm_address_data_error_is_not_reported_as_connection_failure(
+    flow, monkeypatch
+):
+    """A bad payload should explain a data problem, with no private detail."""
+    get = AsyncMock(return_value={"total_count": 1, "results": [None]})
+    monkeypatch.setattr(ToulouseApi, "_get", get)
+    flow.addresses = [ADDRESS]
+    result = await flow.async_step_address({"address_choice": "0"})
+    assert result["type"] == FlowResultType.FORM
+    assert result["step_id"] == "address"
+    assert result["errors"] == {"base": "invalid_data"}
 
 
 @pytest.mark.asyncio

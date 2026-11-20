@@ -12,6 +12,8 @@ from yarl import URL
 from custom_components.toulouse_metropole_dechets.api import (
     BASE_URL,
     GEOCODE_URL,
+    ApiConnectionError,
+    ApiDataError,
     ApiError,
     ToulouseApi,
     distance_to_shape,
@@ -209,6 +211,43 @@ async def test_empty_result_is_valid():
             assert await ToulouseApi(session).routes("om", LAT, LON) == []
 
 
+@pytest.mark.parametrize(
+    "invalid_field", ["libelle_voie", "infobulle_pdi", "geo_shape"]
+)
+@pytest.mark.asyncio
+async def test_partial_route_data_preserves_valid_neighbour(invalid_field):
+    """An incomplete public record must not hide a usable nearby route."""
+    valid = record("Rue test valide")
+    incomplete = record("Rue test incomplète")
+    incomplete[invalid_field] = None
+    with aioresponses() as responses:
+        responses.get(
+            routes_url(),
+            payload={"total_count": 2, "results": [incomplete, valid]},
+        )
+        async with aiohttp.ClientSession() as session:
+            found = await ToulouseApi(session).routes("om", LAT, LON)
+    assert len(found) == 1
+    assert found[0]["key"] == record_key(valid)
+    assert found[0]["street"] == "Rue test valide"
+    assert found[0]["rule"] == "Lundi"
+
+
+@pytest.mark.parametrize(
+    "invalid_field", ["libelle_voie", "infobulle_pdi", "geo_shape"]
+)
+@pytest.mark.asyncio
+async def test_all_incomplete_routes_are_data_error_not_empty_coverage(invalid_field):
+    """Missing usable records must remain distinct from genuine zero coverage."""
+    incomplete = record()
+    incomplete[invalid_field] = None
+    with aioresponses() as responses:
+        responses.get(routes_url(), payload={"total_count": 1, "results": [incomplete]})
+        async with aiohttp.ClientSession() as session:
+            with pytest.raises(ApiDataError):
+                await ToulouseApi(session).routes("om", LAT, LON)
+
+
 @pytest.mark.asyncio
 async def test_pagination_limit_does_not_silently_truncate():
     with aioresponses() as responses:
@@ -235,5 +274,8 @@ async def test_transport_and_error_responses_raise_api_error(failure):
         else:
             responses.get(routes_url(), payload={"error_code": "ODSQLError"})
         async with aiohttp.ClientSession() as session:
-            with pytest.raises(ApiError):
+            expected = (
+                ApiConnectionError if failure in {"status", "timeout"} else ApiDataError
+            )
+            with pytest.raises(expected):
                 await ToulouseApi(session).routes("om", LAT, LON)

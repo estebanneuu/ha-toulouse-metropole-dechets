@@ -1,5 +1,14 @@
 # Historique
 
+## 0.1.1 — 2026-11-20
+
+- Correction d’un échec à la confirmation de l’adresse : un tronçon OpenData sans nom de voie, sans règle ou sans géométrie utilisable ne bloque plus les autres tournées valides de la réponse.
+- Les réponses entièrement inexploitables restent signalées, distinctement d’une absence de couverture.
+- Les erreurs de données et les erreurs réseau affichent désormais des messages différents.
+- Huit tests de régression supplémentaires couvrent le client et le parcours de configuration.
+
+Après mise à jour dans HACS, redémarrer Home Assistant puis relancer la configuration.
+
 ## 0.1.0 — 2026-11-20
 
 - Première version publique pour Home Assistant 2026.11+.

@@ -38,10 +38,11 @@
       }
     },
     "error": {
-      "cannot_connect": "Unable to connect to the public service. Try again, or choose to configure this waste type later.",
+      "cannot_connect": "Unable to reach one of the public services. Please try again shortly.",
       "no_address": "No precise address found. Include the municipality and house number.",
       "ambiguous_route": "This street segment has an ambiguous schedule, for example different days on each side of the road. Choose to configure it later, then enter the rule or dates confirmed by Toulouse Métropole in the options.",
-      "no_green": "No garden waste collection area was found for this address. Choose to enter the dates later."
+      "no_green": "No garden waste collection area was found for this address. Choose to enter the dates later.",
+      "invalid_data": "The service responded, but the required data is invalid or incomplete. Try again later or report the problem."
     },
     "abort": {
       "already_configured": "This address is already configured.",
